@@ -1,0 +1,22 @@
+{
+	"Name": "ZZZ_MOIMOD",
+	"Author": "",
+	"Website": "",
+
+	"Enabled": true,
+	"DependsOn": ["CustomComponents", "MechEngineer"],
+
+
+	"Manifest": [
+		{
+			"Type": "UpgradeDef",
+			"Path": "Internals",
+			"ShouldMergeJSON": false
+		},
+		{	
+			"Type": "WeaponDef",
+			"Path": "Weapons",
+			"ShouldMergeJSON": false
+		},
+	]
+}

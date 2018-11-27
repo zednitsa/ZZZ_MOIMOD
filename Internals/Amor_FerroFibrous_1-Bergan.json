@@ -1,0 +1,70 @@
+{
+	"Custom": {
+		"Color": {
+			"UIColor": "Gold"
+		},
+		"DynamicSlots": {
+			"ReservedSlots": 8,
+			"BackgroundColor": "GoldHalf",
+			"ShowIcon": false,
+			"NameText": "Dynamic Slot",
+			"BonusAText": "Dynamic Slot",
+			"BonusAText": " "
+		},
+		"Weights": {
+			"ArmorFactor": 0.89286
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]]/10",
+				"CBillCost": "[[Chassis.Tonnage]] * 4"
+			}
+		},
+		"Category" : { 
+			"CategoryID" : "Armor" 
+		},
+		"ArmorRepair" : { "ArmorTPCost" : 1.05, "ArmorCBCost" : 1.1 },
+		"Flags" : { "flags" : [ "not_broken" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "ArmorFactor: -12%",
+                "Reserved: 8",
+				"ArmorTPCost: 5%",
+				"ArmorCBCost: 10%"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00009"
+            }				
+	},
+    "Description" : {
+        "Cost" : 350000,
+        "Rarity" : 5,
+        "Purchasable" : true,
+        "Manufacturer" : "Bergan",
+        "Model" : "Armor",
+        "UIName" : "Ferro-Fibrous +",
+        "Id" : "Amor_FerroFibrous_1-Bergan",
+        "Name" : "Ferro-Fibrous Armor +",
+        "Details" : "Ferro-Fibrous armor (FF) is a special type of armor used by vehicles and BattleMechs. Utilizing a weave of ferro-steel, ferro-titanium, and diamond weave fibers which boosts the tensile strength of the plating, it provides more protection per ton than standard armor, but takes up more space on the 'Mech or vehicle.",
+        "Icon" : "uixSvgIcon_action_end"
+    },
+    "BonusValueA" : "-12% Armor Weight|",
+    "BonusValueB" : "Reserves 8 Slots",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
